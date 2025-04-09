@@ -1,0 +1,33 @@
+# Archivos de configuración de Minecraft
+eula.txt
+help.yml
+commands.yml
+bukkit.yml
+logs/
+crash-reports/
+
+# Archivos de caché
+cache/
+
+# Archivos temporales generados por el servidor
+*.log
+*.pid
+*.bak
+
+# Librerías de Java
+libraries/
+
+# Archivos de datos banneados
+banned-ips.json
+banned-players.json
+
+# Archivos del mundo
+world/
+world_nether/
+world_the_end/
+
+# Archivos generados por plugins (si los tienes)
+plugins/*/data/
+
+# Otros archivos generales no necesarios
+*.jar
